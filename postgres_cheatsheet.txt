@@ -1,0 +1,19 @@
+switch to postgres user
+sudo su - postgres
+
+Postgres comd line:
+psql
+
+\q -> quit
+\c -> connect to DB
+\l -> list Databases
+\du > lists users
+
+Dublicate DB
+CREATE DATABASE newdb WITH TEMPLATE originaldb OWNER dbuser;
+Eg : CREATE DATABASE DBdev  WITH TEMPLATE ccanwarehouse OWNER postgres;
+
+	
+
+
+

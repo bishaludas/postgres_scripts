@@ -1,0 +1,2 @@
+# replace NaN with None
+final_df.where(final_df.notnull(), None)
