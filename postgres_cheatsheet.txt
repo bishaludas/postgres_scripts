@@ -7,6 +7,7 @@ psql
 \q -> quit
 \c -> connect to DB
 \l -> list Databases
+\dt -> show tables
 \du > lists users
 
 Dublicate DB
